@@ -44,14 +44,14 @@ main {
     flex-direction: row;
 }
 
-/*#main_music {
+#main_music {
     display: flex;
     flex-direction: column;
-}*/
+}
 
 main * {
     display: inline-block;  /* needed because default positioning of elements is different/not top */
-    vertical-align: top;
+    /*vertical-align: top;*/
     margin: 2%;
 }
 
