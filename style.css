@@ -3,7 +3,7 @@
 }
 
 body {
-    background: url(index-background.jpg);
+    background: url(media/background.jpg);
     background-size: cover;
     height: 100vh;  /* viewport height */
     margin: 0;
@@ -17,11 +17,6 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-}
-
-#name {
-    position: relative;
-    left: 5%;
 }
 
 nav {
@@ -38,18 +33,28 @@ nav {
 
 main {
     width: 60%;
-    height: 93vh;
+    min-height: 93vh;
     margin: auto;
     background-color: white;
+    padding: 2% 5%;
+}
+
+#main_index {
     display: flex;
     flex-direction: row;
+}
+
+#main_music {
+    display: flex;
+    flex-direction: column;
 }
 
 main * {
     display: inline-block;  /* needed because default positioning of elements is different/not top */
     vertical-align: top;
-    margin: 5%;
+    margin: 2%;
 }
+
 
 #headshot {
     width: 240%;
@@ -59,4 +64,13 @@ main * {
 #headshot img {
     width: 100%;
     margin: auto;
+}
+
+#name {
+    position: relative;
+    left: 5%;
+}
+
+iframe {
+    flex-shrink: 0;
 }
