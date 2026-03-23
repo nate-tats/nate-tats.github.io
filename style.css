@@ -51,10 +51,12 @@ main {
 
 main * {
     display: inline-block;  /* needed because default positioning of elements is different/not top */
-    /*vertical-align: top;*/
     margin: 2%;
 }
 
+#intro {
+    line-height: 115%;
+}
 
 #headshot {
     width: 240%;
